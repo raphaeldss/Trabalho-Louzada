@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" tybe="text/css" href="style.css">
+    <title>Academia Raphael</title>
+    <center><header id="cabecalho">
+        <img src="imagem/logo.png" width="100"> Academia Santos <img src="imagem/logo2.png" width="100">
+    </center>
+        <hr>
+</head>
+<body background="imagem/fundo2.jpg">
+    <nav id="menu">
+        <ul>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="index3.html"><li>PLANOS</li></a>
+            <li>CONTATOS</li>
+        </ul>       
+    </nav>
+    
+    <center>
+    <form method="post" action="raphael.souza@unigranrio.br" color="#ffffff">
+        <fieldset>
+            <legend>CADASTRO DO ALUNO</legend>
+            <P>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" size="80">
+            </P>
+                <label for="ident">Identidade:</label>
+                <input type="number" id="ident">
+            <p>
+               <label for="data">Data de Nascimento:</label>
+               <input type="date" id="data">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" size="30" maxlength="40">
+            <p>
+                Sexo:
+            <input type="radio" id="masculino" name="sexo" value="M">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="F">
+            <label for="feminino">Feminino</label>
+            <p>
+                Escolha suas atividades favoritas:
+            <input type="checkbox" id="musculacao" name="acesso"
+            value="Musculação">
+            <label for="musculacao">Musculação</label>
+            
+            <input type="checkbox" id="yoga" name="acesso"
+            value="Yôga">
+            <label for="yoga">Yôga</label>
+
+            <input type="checkbox" id="artesmaciais" name="acesso" value="Artes-Marciais">
+            <label for="artesmaciais">Artes Maciais</label>
+
+            <input type="checkbox" id="danca" name="acesso" valeu="Dança">
+            <label for="danca">Dança</label>
+
+            <input type="checkbox" id="zumba" name="acesso" valeu="Zumba-Fitness">
+            <label for="zumba">Zumba Fitness</label>
+
+            <input type="checkbox" id="spinning" name="acesso" valeu="Spinning">
+            <label for="spinning">Spinning</label></label>
+            <p>
+            <input type="submit" value="Cadastrar" onclick="window.alert('Seja bem-vindo(a) ')">
+            <input type="reset" value="Limpar">
+
+            </fieldset>    
+    </form>
+</center>
+</body>
+</html>
